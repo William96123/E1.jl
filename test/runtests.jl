@@ -22,8 +22,8 @@ end
         B = randn(n,n)
         C = A*B
         Ctest = similar(C)
-        #rowmatmuldot!(Ctest, A, B)
+        rowmatmuldot!(Ctest, A, B)
         @test Ctest ≈ C
-        #colmatmuldot!(Ctest, A, B)
+        colmatmuldot!(Ctest, A, B)
         @test Ctest ≈ C    
 end
