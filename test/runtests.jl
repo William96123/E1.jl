@@ -1,4 +1,4 @@
-using E1
+using Exercise1
 using Test
 using BenchmarkTools
 

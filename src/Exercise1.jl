@@ -1,4 +1,4 @@
-module E1
+module Exercise1
 export rowmatmul!, colmatmul!, rowmatmuldot!, colmatmuldot!
 
 import LinearAlgebra:dot
